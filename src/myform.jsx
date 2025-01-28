@@ -81,6 +81,8 @@ export function MyForm() {
         setFormInputs({...formInputs , IsStudent: event.target.checked})
       }}></input>
       <button>submit</button>
+      <br></br>
+      <span>when clicking on submit , you will get an object of the inserted data in console</span>
     </form>
   );
 }
